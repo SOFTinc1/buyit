@@ -12,6 +12,7 @@ import {
   Move,
   Image3,
   Image4,
+  But
 } from "./category2.styles";
 import Button from "../button/button.component";
 import Women from "../../assets/images/model4.jpg";
@@ -23,7 +24,7 @@ const Category2 = () => (
       <FlexRow>
         <GridA>
           {/* <Empty></Empty> */}
-          <Move as={Button}>view all</Move>
+          <Move as={Button}>enter shoes section</Move>
         </GridA>
         <GridB>
           <Image3 src={Shoes} />
@@ -34,7 +35,7 @@ const Category2 = () => (
       <GridRow>
         <RealFlexRow>
           <Title4>women's Wear</Title4>
-          <Button>view all</Button>
+          <But as={Button}>enter women's section</But>
         </RealFlexRow>
         <Image4 src={Women} />
       </GridRow>

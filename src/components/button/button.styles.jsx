@@ -31,6 +31,7 @@ export const ButtonContainer = styled.button`
   justify-content: center;
   font-family: "Rehn";
   text-transform: capitalize;
+  padding: 0 15px 0 15px;
 
   ${ButtonStyles}
 `;

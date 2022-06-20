@@ -6,6 +6,10 @@ const OptionContainerStyles = css`
   font-weight: 800;
   letter-spacing: 0.1rem;
   cursor: pointer;
+
+  @media screen and (max-width: 800px) {
+    margin: -10px 0 0 0;
+  }
 `;
 
 export const HeaderContainer = styled.div`
@@ -15,7 +19,6 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 0px;
-  // box-shadow:0 10px 20px -10px rgba(0, 0, 0, 0.4);
 
   @media screen and (max-width: 800px) {
     height: 60px;
@@ -47,6 +50,10 @@ export const Logoh1 = styled.h1`
   letter-spacing: 1px;
   color: #8d6648;
   font-weight: 800;
+
+  @media screen and (max-width: 800px) {
+    font-size: 12px;
+  }
 `;
 
 export const Logo = styled.img`
@@ -78,6 +85,10 @@ export const OptionsContainer = styled.div`
 export const OptionLink = styled(Link)`
   ${OptionContainerStyles}
   font-weight: 400;
+
+  @media screen and (max-width: 800px) {
+    padding: 5px 5px;
+  }
 `;
 
 export const OptionDiv = styled.div`
@@ -87,6 +98,10 @@ export const OptionDiv = styled.div`
 
 export const CartT = styled.div`
   padding: -15px 0 0 0;
+
+  @media screen and (max-width: 800px) {
+    margin: -20px 0 0 0;
+  }
 `;
 
 // export const ProfileDetails = styled.select`

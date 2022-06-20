@@ -8,6 +8,11 @@ export const CatalogueOverviewContainer = styled.div`
   align-items: center;
   background: #fafaf4;
   height: 100%;
+
+  @media screen and (max-width: 800px) {
+    margin: 0;
+    padding: 0;
+  }
 `;
 
 export const Title = styled.h1`
@@ -15,8 +20,13 @@ export const Title = styled.h1`
   text-align: center;
   font-family: archwaltz;
   font-size: 70px;
-//   font-weight: 800;
   text-transform: capitalize;
+  padding: 40px 30px 40px 30px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 40px;
+    margin: 0;
+  }
 `;
 
 

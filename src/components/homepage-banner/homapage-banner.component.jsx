@@ -7,6 +7,7 @@ import {
   Details,
   Row,
   Empty,
+  ButtonThingy
 } from "./homepage-banner.styles";
 import BannerImg from "../../assets/images/model1.jpg";
 import Button from "../button/button.component";
@@ -27,7 +28,7 @@ const HomepageBanner = () => (
       dicta assumenda fugiat eum quasi repudiandae in laborum inventore natus,
       odit, eos dignissimos harum nostrum? Omnis qui modi perferendis cum!
     </Details>
-    <Button>shop now</Button>
+    <ButtonThingy as={Button}>shop now</ButtonThingy>
   </HomepageContainer>
 );
 

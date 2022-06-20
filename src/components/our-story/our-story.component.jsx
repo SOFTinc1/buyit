@@ -7,6 +7,7 @@ import {
   Descrip,
   ImageOne,
   ImageTwo,
+  ButtonT
   //   Empty
 } from "./our-story.styles";
 import Button from "../button/button.component";
@@ -24,7 +25,7 @@ const OurStory = () => (
           officiis ipsum voluptates, animi autem repudiandae incidunt! Nostrum
           itaque ad praesentium facilis illo.
         </Descrip>
-        <Button>enter now</Button>
+        <ButtonT as={Button}>enter now</ButtonT>
         <ImageOne src={Image1} />
       </Column1>
       <ImageTwo src={Image2} />

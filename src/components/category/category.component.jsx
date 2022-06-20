@@ -11,7 +11,8 @@ import {
   Empty,
   GridB,
   Image2,
-  RealFlexRow
+  RealFlexRow,
+  But
 } from "./category.styles";
 import Button from "../button/button.component";
 import Men from "../../assets/images/men.jpg";
@@ -24,14 +25,14 @@ const Category = () => (
         <Image1 src={Men} />
         <RealFlexRow>
           <Title>Men's Wear</Title>
-          <Button>view all</Button>
+          <But as={Button}>enter men's section</But>
         </RealFlexRow>
       </GridRow>
 
       <FlexRow>
         <GridA>
           <Empty></Empty>
-          <Button>view all</Button>
+          <Button>enter clothes section</Button>
         </GridA>
         <GridB>
           <Title2>all clothes</Title2>

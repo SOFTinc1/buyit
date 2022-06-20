@@ -20,17 +20,17 @@ export const CollectionItemContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
-    width: 40vw;
+    width: 100%;
 
-    &:hover {
-        .image {
-          opacity: unset;
-        }
-        button {
-          opacity: unset;
-          font-family: "Rehn";
-        }
-      }
+    // &:hover {
+    //     .image {
+    //       opacity: unset;
+    //     }
+    //     button {
+    //       opacity: unset;
+    //       font-family: "Rehn";
+    //     }
+    //   }
   }
 `;
 
@@ -41,6 +41,12 @@ export const Card = styled.div`
   background-size: cover;
   background-position: center;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+  }
 `;
 
 export const Image = styled.img`
@@ -50,6 +56,11 @@ export const Image = styled.img`
   background-size: cover;
   background-position: center;
   margin-bottom: 10px;
+
+  @media screen and (max-width: 800px) {
+    width: 100px;
+    height: 100px;
+  }
 `;
 
 export const AddButton = styled(Button)`
@@ -67,8 +78,8 @@ export const AddButton = styled(Button)`
     outline: none;
     border: none;
     background: rgba(255, 255, 255, 0.479);
-    color: #000;
-    font-size: 25px;
+    color: #8d6648;
+    // font-size: 25px;
   }
 
   @media screen and (max-width: 800px) {
@@ -76,6 +87,13 @@ export const AddButton = styled(Button)`
     opacity: 0.9;
     min-width: unset;
     padding: 0 10px;
+    font-size: 15px;
+    margin: 110px 0 0 -7px;
+    border: 2px solid #8d6648;
+
+    &:hover {
+      border: 2px solid #8d6648;
+    }
   }
 `;
 
@@ -84,7 +102,6 @@ export const CollectionFooter = styled.div`
   height: 5%;
   display: flex;
   flex-direction: column;
-  font-size: 18px;
 `;
 
 export const FooterName = styled.span`
@@ -92,7 +109,11 @@ export const FooterName = styled.span`
   margin-bottom: 15px;
   font-size: 25px;
   font-family: Axiforma;
-  text-align: center
+  text-align: center;
+  
+  @media screen and (max-width: 800px) {
+    font-size: 19px;
+  }
 `;
 
 export const FooterPrice = styled.span`
@@ -100,5 +121,9 @@ export const FooterPrice = styled.span`
   font-size: 25px;
   font-weight: 800;
   font-family: Axiforma;
-  text-align: center
-`
+  text-align: center;
+  
+  @media screen and (max-width: 800px) {
+    font-size: 19px;
+  }
+`;

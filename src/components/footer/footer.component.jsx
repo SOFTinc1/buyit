@@ -7,6 +7,7 @@ import {
   Option,
   FormContainer,
   Option1,
+  FooterBottom
 } from "./footer.styles";
 import FormInput from "../form-input/form-input.component";
 
@@ -33,6 +34,9 @@ const Footer = () => (
         <form action="">
           <FormContainer as={FormInput} type="text" placeholder="email" />
         </form>
+        <FooterBottom>
+          made by idowu elijah &copy; 2022
+        </FooterBottom>
       </FlexRow>
     </Row>
   </FooterContainer>
