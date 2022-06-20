@@ -6,7 +6,7 @@ import { withRouter } from "../directory/withRouter";
 
 
 
-const MenuItem = ({ title, imageUrl, size, history, navigate, linkUrl, match}) => (
+const MenuItem = ({ title, imageUrl, size, navigate, linkUrl }) => (
     <div className={`${size} menu-item`} >
 
         <div className="background-image" 

@@ -5,6 +5,7 @@ const ButtonStyles = css`
   color: #8d6648;
   border: 2px solid #8d6648;
   transition: all 0.5s ease-in;
+  font-family: "Rehn";
 
   &:hover {
     background-color: #8d6648;

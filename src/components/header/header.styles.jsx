@@ -15,7 +15,7 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 0px;
-  box-shadow:0 10px 20px -10px rgba(0, 0, 0, 0.4);
+  // box-shadow:0 10px 20px -10px rgba(0, 0, 0, 0.4);
 
   @media screen and (max-width: 800px) {
     height: 60px;
@@ -38,6 +38,15 @@ export const LogoContainer = styled(Link)`
   //   width: 20%;
   //   padding: 0;
   // }
+`;
+
+export const Logoh1 = styled.h1`
+  width: 100%;
+  font-size: 20px;
+  font-family: Axiforma;
+  letter-spacing: 1px;
+  color: #8d6648;
+  font-weight: 800;
 `;
 
 export const Logo = styled.img`
@@ -68,11 +77,16 @@ export const OptionsContainer = styled.div`
 
 export const OptionLink = styled(Link)`
   ${OptionContainerStyles}
+  font-weight: 400;
 `;
 
 export const OptionDiv = styled.div`
   ${OptionContainerStyles}
   text-transform: capitalize;
+`;
+
+export const CartT = styled.div`
+  padding: -15px 0 0 0;
 `;
 
 // export const ProfileDetails = styled.select`

@@ -1,17 +1,8 @@
 @font-face {
-  font-family: "Ainslie";
-  src: local("Ainslie"), url(./assets/font/Ainslie\ W01\ Norm\ Regular\ V2.ttf) format("truetype");
-}
-
-@font-face {
   font-family: "archwaltz";
   src: local("archwaltz"), url(./assets/font/archwaltz-font/Archwaltz\ Demo\ Regular.ttf) format("truetype");
 }
 
-@font-face {
-  font-family: "ColibreBristole";
-  src: local("ColibreBristole"), url(./assets/font/ColibreBristolePro-Bold.otf) format("opentype");
-}
 
 @font-face {
   font-family: "Axiforma";
@@ -25,11 +16,7 @@
 
 body {
   margin: 0;
-  font-family: "Axiforma", "Ainslie", "Rehn";
+  font-family: "Axiforma", "archwaltz", "Rehn" ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @media screen and (max-width: 800px) {
-    padding: 0;
-  }
 }

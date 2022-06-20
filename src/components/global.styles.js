@@ -10,20 +10,14 @@ export const GlobalStyle = createGlobalStyle`
         }
     }
 
-    body {
-        font-family: "NewYork","Euclid";
-    }
-
     a {
         text-decoration: none;
-        color: #aaa;
-    }
-
-    a:hover {
         color: #000;
-    }
-
-    button { 
-        font-family: "NewYork";
+        font-weight: normal;
+        
+        &:hover {
+            color: #8d6648;
+            font-weight: 800;
+        }
     }
 `;

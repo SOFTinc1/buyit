@@ -34,14 +34,14 @@ const NavbarBootStrap = ({ currentUser }) => (
                 home
               </Anchor>
             </Li>
-            <Li as={Nav.Item}>
-              <Anchor as={Nav.Link} to="/about">
-                about
+            <Li as={Nav.Item} to="/shop">
+              <Anchor as={Nav.Link} to="/shop">
+                shop
               </Anchor>
             </Li>
             <Li as={Nav.Item}>
-              <Anchor as={Nav.Link} to="/shop">
-                shop
+              <Anchor as={Nav.Link} to="/signin">
+                sign in
               </Anchor>
             </Li>
             <Li as={Nav.Item}>

@@ -1,64 +1,67 @@
 .checkout-page {
-  width: 55%;
-  min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 50px auto 0;
+  width: 100%;
+  padding: 50px 150px;
+
+  .gridThinghs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
 
   @media screen and (max-width: 800px) {
     width: 80vw;
     margin: 20px auto 0;
   }
 
-  .checkout-header {
+  .header-block {
+    text-transform: capitalize;
     width: 100%;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid darkgrey;
+    font-weight: bold;
 
-    .header-block {
-      text-transform: capitalize;
-      width: 23%;
-      font-weight: bold;
+    @media screen and (max-width: 800px) {
+      font-size: 0.8rem;
+    }
 
-      @media screen and (max-width: 800px) {
-        font-size: 0.8rem;
-      }
+    span {
+      font-family: "archwaltz";
+      letter-spacing: 2px;
+      // font-weight: normal;
+    }
 
-      span {
-        font-family: "NewYork";
-        // font-weight: normal;
-      }
-
-      &:last-child {
-        width: 8%;
-      }
+    &:last-child {
+      width: 100%;
     }
   }
 
+  .paymentdiv {
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+    grid-gap: 10px;
+  }
+
+  .payment {
+    background: #fafaf4;
+    padding: 20px 30px;
+    margin: 40px 0 0 0;
+  } 
+
   .total {
-    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .total {
     margin-left: auto;
 
     .total-span {
       text-transform: capitalize;
-      font-size: 2rem;
-      font-weight: bold;
-      font-family: "Euclid";
+      font-size: 18px;
+      // font-weight: bold;
+      font-family: "Axiforma";
     }
   }
 
-  .test-warning {
-    text-align: center;
-    margin: 40px 0 0 0;
-    font-size: 24px;
-    color: red;
-    font-family: "Euclid";
-    text-transform: capitalize;
-  }
   button {
-    margin: 50px 0 0 auto;
+    margin: 10px 0 0 auto;
   }
 }

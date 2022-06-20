@@ -4,10 +4,8 @@ import { withRouter } from "../directory/withRouter";
 import { createStructuredSelector } from "reselect";
 import { selectCartItems } from "../../redux/cart/cart.selectors";
 import { toggleCartHidden } from "../../redux/cart/cart.actions";
-
 import "./cart-dropdown.styles.scss";
-
-import CustomButton from "../custom-button/custom-button.component";
+import Button from "../button/button.component";
 import CartItem from "../cart-item/cart-item.component";
 
 
@@ -24,7 +22,7 @@ const CartDropdown = ({ cartItems, navigate, dispatch }) => (
                 <span className="empty-message">your cart is empty</span>
             )}
         </div>
-        <CustomButton onClick={() => {navigate('/checkout'); dispatch(toggleCartHidden())}}>goto check out</CustomButton>
+        <Button onClick={() => {navigate('/checkout'); dispatch(toggleCartHidden())}}>goto check out</Button>
     </div>
 )
 

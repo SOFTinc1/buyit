@@ -37,9 +37,4 @@ export const Anchor = styled(Link)`
   font-family: Axiforma;
   font-size: 13px;
   margin: 0 30px;
-
-  &:hover {
-    // color: #fff;
-    font-weight: 800;
-  }
 `;

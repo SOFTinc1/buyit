@@ -6,7 +6,8 @@ import {
   OptionsContainer,
   OptionLink,
   OptionDiv,
-  Logo
+  Logoh1,
+  CartT
 } from "./header.styles";
 
 import { connect } from "react-redux";
@@ -20,19 +21,20 @@ import { createStructuredSelector } from "reselect";
 import { selectCartHidden } from "../../redux/cart/cart.selectors";
 import { selectCurrentUser } from "../../redux/user/user.selectors";
 
-import LogoImg from "../../assets/images/emptum.svg";
+// import LogoImg from "../../assets/images/emptum.svg";
 
 const Header = ({ currentUser, hidden }) => (
   <HeaderContainer>
     <LogoContainer to="/">
-      <Logo src={LogoImg} />
+      {/* <Logo src={LogoImg} /> */}
+      <Logoh1>_buyIT</Logoh1>
     </LogoContainer>
     <OptionsContainer>
       <OptionLink to="/shop">
         {" "}shop{" "}
       </OptionLink>
       <OptionLink to="/contact">
-        {" "}contact{" "}
+        {" "}about{" "}
       </OptionLink>
       {currentUser ? (
         <OptionDiv onClick={() => auth.signOut()}>
@@ -43,7 +45,7 @@ const Header = ({ currentUser, hidden }) => (
           sign in
         </OptionLink>
       )}
-      <CartIcon />
+      <CartT as={CartIcon} />
     </OptionsContainer>
     {hidden ? null : <CartDropdown />}
   </HeaderContainer>
