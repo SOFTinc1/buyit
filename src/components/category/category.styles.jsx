@@ -31,7 +31,7 @@ export const Image1 = styled.img`
 `;
 export const Title = styled.h1`
   font-size: 30px;
-  font-family: archwaltz;
+  font-family: Axiforma;
 
   @media screen and (max-width: 800px) {
     margin: 0 0 0 -1px;
@@ -70,8 +70,8 @@ export const Image2 = styled.img`
 
 export const Title2 = styled.h1`
   font-size: 30px;
-  font-family: archwaltz;
-  margin: 30px 0 0 190px;
+  font-family: Axiforma;
+  margin: 30px 0 0 170px;
   width: 100px;
 
   @media screen and (max-width: 800px) {

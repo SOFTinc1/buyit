@@ -61,6 +61,7 @@ export const ImageOne = styled.img`
   width: 100%;
   height: 100%;
   margin: 20px 0 0 0;
+  background-size: cover;
 
   @media screen and (max-width: 800px) {
     margin: 0;
@@ -70,6 +71,7 @@ export const ImageOne = styled.img`
 export const ImageTwo = styled.img`
   width: 100%;
   height: 110.2%;
+  background-size: cover;
 
   @media screen and (max-width: 800px) {
     display: none;

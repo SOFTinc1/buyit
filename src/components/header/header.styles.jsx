@@ -30,7 +30,7 @@ export const HeaderContainer = styled.div`
 
 export const LogoContainer = styled(Link)`
   height: 100%;
-  width: 20%;
+  width: 15%;
   padding: 25px;
 
   @media screen and (max-width: 800px) {
@@ -57,8 +57,8 @@ export const Logoh1 = styled.h1`
 `;
 
 export const Logo = styled.img`
-  width: 20%;
-  margin: -0.8rem 0 0 0;
+  width: 100%;
+  margin: -20px 0 0 0;
 
   @media screen and (max-width: 800px) {
     margin: 0;

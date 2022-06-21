@@ -6,7 +6,8 @@ import {
   OptionsContainer,
   OptionLink,
   OptionDiv,
-  Logoh1,
+  // Logoh1,
+  Logo,
   CartT
 } from "./header.styles";
 
@@ -21,13 +22,12 @@ import { createStructuredSelector } from "reselect";
 import { selectCartHidden } from "../../redux/cart/cart.selectors";
 import { selectCurrentUser } from "../../redux/user/user.selectors";
 
-// import LogoImg from "../../assets/images/emptum.svg";
+import LogoImg from "../../assets/images/logo.svg";
 
 const Header = ({ currentUser, hidden }) => (
   <HeaderContainer>
     <LogoContainer to="/">
-      {/* <Logo src={LogoImg} /> */}
-      <Logoh1>_buyIT</Logoh1>
+      <Logo src={LogoImg} />
     </LogoContainer>
     <OptionsContainer>
       <OptionLink to="/shop">

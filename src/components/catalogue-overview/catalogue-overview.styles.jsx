@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const CatalogueOverviewContainer = styled.div`
   margin: -200px 0 0 0;
-  padding: 40px 120px 80px 120px;
+  padding: 50px 80px 50px 80px;
   display: flex;
   flex-direction: column;
   align-items: center;

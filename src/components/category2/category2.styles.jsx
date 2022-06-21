@@ -66,7 +66,7 @@ export const Image3 = styled.img`
 `;
 export const Title3 = styled.h1`
   font-size: 30px;
-  font-family: archwaltz;
+  font-family: Axiforma;
   width: 100px;
   margin: 0 0 0 10px;
 
@@ -85,7 +85,7 @@ export const Image4 = styled.img`
 `;
 export const Title4 = styled.h1`
   font-size: 30px;
-  font-family: archwaltz;
+  font-family: Axiforma;
 
   @media screen and (max-width: 800px) {
     margin: 0 0 0 0px;
@@ -100,7 +100,7 @@ export const RealFlexRow = styled.div`
 `;
 
 export const But = styled.button`
-  margin: 0 0 0 -80px;
+  margin: 0 0 0 -60px;
 
   @media screen and (max-width: 800px) {
     margin: 20px 0 0 0;
