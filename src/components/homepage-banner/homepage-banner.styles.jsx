@@ -34,17 +34,18 @@ export const Empty = styled.div``;
 export const Title = styled.h1`
   font-family: archwaltz;
   font-size: 95px;
+  font-weight: 400;
   text-transform: uppercase;
   margin: -660px 0 0 0;
   transform: scale(1, 2);
 
-  @media screen and (max-width: 1250px) {
+  @media screen and (max-width: 1240px) {
     margin: -610px 0 0 0;
     font-size: 88px;
   }
-  @media screen and (max-width: 1240px) {
+  @media screen and (max-width: 1200px) {
     margin: -610px 0 0 0;
-    font-size: 80px;  1192
+    font-size: 80px; 
   }
   @media screen and (max-width: 1194px) {
     margin: -580px 0 0 0;
@@ -89,12 +90,6 @@ export const Title = styled.h1`
   @media screen and (max-width: 890px) {
     margin: -370px 0 0 0;
     font-size: 50px;  
-  }
-  @media screen and (min-width: 425px), screen and (max-width: 800px) {
-    margin: -620px 0 0 0;
-    font-size: 25px;
-    text-align: center;
-    font-weight: 800;
   }
   @media screen and (max-width: 424px) {
     margin: -640px 0 0 0;
@@ -150,23 +145,16 @@ export const ImageSrc = styled.img`
 export const Details = styled.p`
   font-family: Rehn;
   font-size: 13px;
+  font-weight: 400;
   text-align: left;
   width: 374px;
   margin: 220px 0 20px 0;
 
-  @media screen and (min-width: 425px), screen and (max-width: 800px) {
-    width: 350px;
-    font-size: 15px;
-    margin: 140px 0 20px -20px;
-    position: relative;
-    text-align: center;
-    font-weight: 800;
-    padding: 5px;
-  }
+  
   @media screen and (max-width: 424px) {
     text-align: center;
     margin: 240px 0 0 30px;
-    width: 350px;
+    width: 300px;
     font-size: 15px;
     position: relative;
     text-align: center;

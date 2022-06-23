@@ -18,7 +18,9 @@ export const CatalogueOverviewContainer = styled.div`
 export const Title = styled.h1`
   margin: 20px 0 0 0;
   text-align: center;
-  font-family: archwaltz;
+  font-family: Bw Vivant;
+  font-weight: 400;
+  font-size: 95px;
   font-size: 70px;
   text-transform: capitalize;
   padding: 40px 30px 40px 30px;
@@ -28,7 +30,6 @@ export const Title = styled.h1`
     margin: 0;
   }
 `;
-
 
 export const ImageSrc = styled.img`
   width: 100%;

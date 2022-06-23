@@ -6,6 +6,9 @@ const OptionContainerStyles = css`
   font-weight: 800;
   letter-spacing: 0.1rem;
   cursor: pointer;
+  font-family: Bw Vivant;
+  text-transform: uppercase;
+  // margin: 0 30px 0 30px;
 
   @media screen and (max-width: 800px) {
     margin: -10px 0 0 0;
@@ -52,6 +55,7 @@ export const Logo = styled.img`
 
 
 export const OptionsContainer = styled.div`
+  padding: 10px 50px;
   width: 50%;
   height: 100%;
   display: flex;

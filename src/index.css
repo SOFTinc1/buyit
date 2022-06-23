@@ -14,9 +14,15 @@
   src: local("Rehn"), url(./assets/font/Rehn\ W03\ Regular.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: 'Bw Vivant';
+  src: local('Bw Vivant'), url(./assets/font/Bw\ Vivant/bw-vivant-light.ttf) format('truetype');
+}
+
+
 body {
   margin: 0;
-  font-family: "Axiforma", "archwaltz", "Rehn" ;
+  font-family: "Axiforma", "archwaltz", "Rehn", "Bw Vivant" ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

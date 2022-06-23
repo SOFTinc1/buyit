@@ -7,14 +7,18 @@ import {
   Option,
   FormContainer,
   Option1,
-  FooterBottom
+  FooterBottom,
+  BrandLogo
 } from "./footer.styles";
 import FormInput from "../form-input/form-input.component";
+import Logo from "../../assets/images/logo.svg";
 
 const Footer = () => (
   <FooterContainer>
     <Row>
-      <Brand>_buyIT</Brand>
+      <Brand>
+        <BrandLogo src={Logo} />
+      </Brand>
       <FlexRow>
         <Option1>info</Option1>
         <Option>my account</Option>

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`
-  padding: 50px 80px 50px 80px;
+  padding: 50px 80px 50px 30px;
   background: #263238;
   color: #fff;
 
@@ -20,19 +20,25 @@ export const Row = styled.div`
   }
 `;
 export const Brand = styled.div`
-  font-family: archwaltz;
-  font-size: 80px;
-
+  
   @media screen and (max-width: 800px) {
-    font-size: 52px;
+    
   }
 `;
+export const BrandLogo = styled.img`
+  width: 100%;
+
+  @media screen and (max-width: 800px) {
+    // width: 100%;
+  }
+`;
+
 export const FlexRow = styled.div`
   display: flex;
   flex-direction: column;
 `;
 export const Option = styled.p`
-  font-family: Axiforma;
+  font-family: Bw Vivant;
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 400;
@@ -60,15 +66,15 @@ export const FormContainer = styled.div`
   }
 `;
 export const Option1 = styled.div`
-  font-family: archwaltz;
+  font-family: Bw Vivant;
   font-size: 30px;
   text-transform: capitalize;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 2px;
 `;
 
 export const FooterBottom = styled.p`
-  font-family: Axiforma;
+  font-family: Bw Vivant;
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 400;

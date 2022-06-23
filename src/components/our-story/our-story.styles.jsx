@@ -26,10 +26,10 @@ export const Column1 = styled.div`
 
 `;
 export const Title = styled.h1`
-  font-family: Axiforma;
+  font-family: Bw Vivant;
   font-size: 35px;
-  font-weight: 800;
-  text-transform: capitalize;
+  font-weight: 300;
+  text-transform: uppercase;
 
   @media screen and (max-width: 800px) {
     font-size: 22px;
@@ -38,7 +38,7 @@ export const Title = styled.h1`
   }
 `;
 export const Descrip = styled.p`
-  font-family: archwaltz;
+  font-family: Rehn;
   font-size: 15px;
   letter-spacing: 1.5px;
   text-transform: capitalize;
