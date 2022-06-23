@@ -15,7 +15,7 @@ export const CollectionItemContainer = styled.div`
     button {
       opacity: 0.85;
       display: flex;
-      font-family: "Axiforma";
+      font-family: "Bw Vivant";
     }
   }
 
@@ -59,7 +59,8 @@ export const AddButton = styled(Button)`
   position: absolute;
   margin: -100px 0 0 0;
   display: none;
-  font-family: Rehn;
+  // font-family: Rehn;
+  // font-family: Bw Vivant;
   font-size: 22px;
   border: none;
 
@@ -96,26 +97,28 @@ export const CollectionFooter = styled.div`
 export const FooterName = styled.span`
   width: 100%;
   margin-bottom: 15px;
-  font-size: 25px;
-  font-family: Axiforma;
+  font-size: 20px;
+  // font-family: Axiforma;
+  font-family: Bw Vivant;
   text-align: left;
   padding: 0 0 0 10px;
   
   @media screen and (max-width: 800px) {
-    font-size: 19px;
+    font-size: 16px;
   }
 `;
 
 export const FooterPrice = styled.span`
   width: 100%;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
-  font-family: Axiforma;
+  // font-family: Axiforma;
+  font-family: Bw Vivant;
   text-align: left;
   padding: 0 0 0 10px;
   margin: -10px 0 0 0;
   
   @media screen and (max-width: 800px) {
-    font-size: 19px;
+    font-size: 16px;
   }
 `;

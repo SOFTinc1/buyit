@@ -4,12 +4,13 @@
   padding: 50px 80px 50px 80px;
   background: #fafaf4;
 
-  @media screen and (max-width: 800px) {
-    align-items: center;
-  }
+  // @media screen and (max-width: 800px) {
+  //   align-items: center;
+  // }
 
   @media screen and (max-width: 424px) {
     align-items: center;
+    padding: 50px 20px 50px 20px;
   }
 
   .title {
