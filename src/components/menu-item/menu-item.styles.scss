@@ -5,7 +5,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  // border: 1px solid black;
   margin: 0 7.5px 15px;
   overflow: hidden;
 
@@ -14,6 +13,7 @@
 
     @media screen and (max-width: 800px) {
       height: 200px;
+      padding: 0;
     }
   }
 
@@ -57,9 +57,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: "Euclid";
-    // border: 0.5px solid black;
-    // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 0.1rem;
     background-color: #fff;
     opacity: 0.7;
@@ -67,26 +64,28 @@
     
 
     .title {
-      font-weight: bold;
+      font-weight: 400;
       margin-bottom: 6px;
       font-size: 22px;
       color: #000;
       text-transform: uppercase;
-      font-family: "Euclid";
+      font-family: "Axiforma";
     }
 
     .subtitle {
-      font-weight: 800;
       font-size: 16px;
       text-transform: lowercase;
-      font-family: "Euclid";
-      // border: 1px solid #000;
+      font-family: "Axiforma";
+      font-weight: 400;
       border-radius: 0rem;
       padding: 0.5rem;
-      background-color: #CFD8DC;
+      background-color: transparent;
+      border: 2px solid #BF360C;
 
       &:hover {
-        background-color: #FBE9E7;
+        background-color: #BF360C;
+        color: #fff;
+        font-weight: 400;
       }
     }
   }

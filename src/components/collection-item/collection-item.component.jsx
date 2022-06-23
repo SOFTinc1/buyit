@@ -19,7 +19,7 @@ const CollectionItem = ({ item, addItem }) => {
         <Image src={imageUrl} />
         <CollectionFooter>
           <FooterName> {name} </FooterName>
-          <FooterPrice> $ {price} </FooterPrice>
+          <FooterPrice> ${price} </FooterPrice>
         </CollectionFooter>
         <AddButton onClick={() => addItem(item)} inverted="true">
           add to cart

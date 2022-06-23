@@ -1,6 +1,8 @@
 .collection-page {
   display: flex;
   flex-direction: column;
+  padding: 50px 80px 50px 80px;
+  background: #fafaf4;
 
   @media screen and (max-width: 800px) {
     align-items: center;

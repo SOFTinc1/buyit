@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
         
         &:hover {
             color: #8d6648;
-            font-weight: 800;
+            font-weight: 500;
         }
     }
 `;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Button from "../button/button.component";
 
 export const CollectionItemContainer = styled.div`
-  width: 22vw;
+  width: 21vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,60 +15,49 @@ export const CollectionItemContainer = styled.div`
     button {
       opacity: 0.85;
       display: flex;
-      font-family: "Rehn";
+      font-family: "Axiforma";
     }
   }
 
   @media screen and (max-width: 800px) {
     width: 100%;
-
-    // &:hover {
-    //     .image {
-    //       opacity: unset;
-    //     }
-    //     button {
-    //       opacity: unset;
-    //       font-family: "Rehn";
-    //     }
-    //   }
+    padding: 0;
   }
 `;
 
 export const Card = styled.div`
   width: 100%;
   height: 100%;
-  padding: 50px;
-  background-size: cover;
-  background-position: center;
+  padding: 0 0 20px 0;
+  background: #fff;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   @media screen and (max-width: 800px) {
     width: 100%;
     height: 400px;
-    padding: 30px;
+    padding: 0;
   }
 `;
 
 export const Image = styled.img`
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-  background-size: cover;
-  background-position: center;
+  width: 100%;
+  height: 300px;
+  // border-radius: 100px;
   margin-bottom: 10px;
 
   @media screen and (max-width: 800px) {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 200px;
   }
 `;
 
 export const AddButton = styled(Button)`
-  width: 70%;
+  width: 100%;
   background: rgba(255, 255, 255, 0.479);
+  border: none;
   color: #000;
   position: absolute;
-  margin: -100px 0 0 -5px;
+  margin: -100px 0 0 0;
   display: none;
   font-family: Rehn;
   font-size: 22px;
@@ -78,17 +67,17 @@ export const AddButton = styled(Button)`
     outline: none;
     border: none;
     background: rgba(255, 255, 255, 0.479);
-    color: #8d6648;
-    // font-size: 25px;
+    color: #000;
+    font-weight: 400;
   }
 
   @media screen and (max-width: 800px) {
+    width: 80%;
     display: block;
     opacity: 0.9;
-    min-width: unset;
     padding: 0 10px;
     font-size: 15px;
-    margin: 110px 0 0 -7px;
+    margin: 75px 0 0 12px;
     border: 2px solid #8d6648;
 
     &:hover {
@@ -109,7 +98,8 @@ export const FooterName = styled.span`
   margin-bottom: 15px;
   font-size: 25px;
   font-family: Axiforma;
-  text-align: center;
+  text-align: left;
+  padding: 0 0 0 10px;
   
   @media screen and (max-width: 800px) {
     font-size: 19px;
@@ -119,9 +109,11 @@ export const FooterName = styled.span`
 export const FooterPrice = styled.span`
   width: 100%;
   font-size: 25px;
-  font-weight: 800;
+  font-weight: 600;
   font-family: Axiforma;
-  text-align: center;
+  text-align: left;
+  padding: 0 0 0 10px;
+  margin: -10px 0 0 0;
   
   @media screen and (max-width: 800px) {
     font-size: 19px;

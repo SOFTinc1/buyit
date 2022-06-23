@@ -41,6 +41,7 @@ export const Option = styled.p`
 export const FormContainer = styled.div`
   background: transparent;
   width: 100%;
+  color: #fff;
   border: 0.15rem solid #fff;
   border-radius: 5px;
   padding: 15px 15px 15px 10px;

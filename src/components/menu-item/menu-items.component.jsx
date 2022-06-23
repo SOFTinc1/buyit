@@ -1,8 +1,6 @@
 import React from "react";
 import "./menu-item.styles.scss";
 import { withRouter } from "../directory/withRouter";
-// import CustomButton from "../custom-button/custom-button.component";
-// import { Navigate } from "react-router-dom";
 
 
 

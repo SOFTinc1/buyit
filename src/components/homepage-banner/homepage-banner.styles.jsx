@@ -13,6 +13,10 @@ export const HomepageContainer = styled.div`
   @media screen and (max-width: 800px) {
     padding: 0;
   }
+
+  @media screen and (max-width: 800px) {
+    padding: 0;
+  }
 `;
 
 export const Row = styled.div`
@@ -82,25 +86,28 @@ export const Title = styled.h1`
     margin: -410px 0 0 0;
     font-size: 60px;  
   }
-
   @media screen and (max-width: 890px) {
     margin: -370px 0 0 0;
     font-size: 50px;  
   }
-  @media screen and (max-width: 800px) {
-    margin: -600px 0 0 0;
+  @media screen and (min-width: 425px), screen and (max-width: 800px) {
+    margin: -620px 0 0 0;
     font-size: 25px;
-    position: relative;
     text-align: center;
     font-weight: 800;
   }
-   
+  @media screen and (max-width: 424px) {
+    margin: -640px 0 0 0;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+  }
 `;
 export const Descrip = styled.h2`
   font-family: archwaltz;
   font-size: 50px;
   text-transform: uppercase;
-  color: #8d6648;
+  color: #BF360C;
   margin: 10px 0 0 0;
   transform: scale(1, 1.5);
 
@@ -134,6 +141,7 @@ export const ImageSrc = styled.img`
   }
   @media screen and (max-width: 800px) {
     margin: 0;
+    width: 100%;
     height: 100%;
     margin: -40px 0 0 0;
     box-shadow: none;
@@ -146,14 +154,23 @@ export const Details = styled.p`
   width: 374px;
   margin: 220px 0 20px 0;
 
-  @media screen and (max-width: 800px) {
-    width: 374px;
+  @media screen and (min-width: 425px), screen and (max-width: 800px) {
+    width: 350px;
     font-size: 15px;
-    margin: 140px 0 20px 0;
+    margin: 140px 0 20px -20px;
     position: relative;
     text-align: center;
     font-weight: 800;
     padding: 5px;
+  }
+  @media screen and (max-width: 424px) {
+    text-align: center;
+    margin: 240px 0 0 30px;
+    width: 350px;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    font-weight: 800;
   }
 `;
 

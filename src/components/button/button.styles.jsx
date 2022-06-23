@@ -3,9 +3,9 @@ import styled, { css } from "styled-components";
 const ButtonStyles = css`
   background-color: transparent;
   color: #8d6648;
-  border: 2px solid #8d6648;
+  border: 2px solid #BF360C;
   transition: all 0.5s ease-in;
-  font-family: "Rehn";
+  font-family: "Axiforma";
 
   &:hover {
     background-color: #8d6648;
@@ -14,24 +14,17 @@ const ButtonStyles = css`
   }
 `;
 
-const InvertedButtonStyles = css``;
-
-const GoogleSignInStyles = css``;
-
-const getButtonStyles = (props) => {};
-
 export const ButtonContainer = styled.button`
   letter-spacing: 0.5px;
   line-height: 50px;
   font-size: 15px;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 400;
   cursor: pointer;
   display: flex;
   justify-content: center;
-  font-family: "Rehn";
+  font-family: "Axiforma";
   text-transform: capitalize;
   padding: 0 15px 0 15px;
-
   ${ButtonStyles}
 `;

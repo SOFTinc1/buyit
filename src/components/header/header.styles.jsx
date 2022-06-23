@@ -34,25 +34,8 @@ export const LogoContainer = styled(Link)`
   padding: 25px;
 
   @media screen and (max-width: 800px) {
-    width: 10%;
+    width: 40%;
     padding: 0;
-  }
-  // @media screen and (max-width: 1100px) {
-  //   width: 20%;
-  //   padding: 0;
-  // }
-`;
-
-export const Logoh1 = styled.h1`
-  width: 100%;
-  font-size: 20px;
-  font-family: Axiforma;
-  letter-spacing: 1px;
-  color: #8d6648;
-  font-weight: 800;
-
-  @media screen and (max-width: 800px) {
-    font-size: 12px;
   }
 `;
 
@@ -62,13 +45,11 @@ export const Logo = styled.img`
 
   @media screen and (max-width: 800px) {
     margin: 0;
-    width: 100%
+    width: 100%;
+    margin: -10px 0 0 0;
   }
-  // @media screen and (max-width: 1100px) {
-  //   width: 20%;
-  //   margin: 0rem 0 0 0;
-  // }
 `;
+
 
 export const OptionsContainer = styled.div`
   width: 50%;
@@ -103,8 +84,3 @@ export const CartT = styled.div`
     margin: -20px 0 0 0;
   }
 `;
-
-// export const ProfileDetails = styled.select`
-// ${OptionContainerStyles}
-// text-transform: capitalize;
-// `;
