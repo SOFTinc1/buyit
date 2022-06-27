@@ -19,10 +19,20 @@
   src: local('Bw Vivant'), url(./assets/font/Bw\ Vivant/bw-vivant-light.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Mighty';
+  src: local('Mighty'), url(./assets/font/Mighty\ Ditey\ NF\ W01\ Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Elipses';
+  src: local('Elipses'), url(./assets/font/ElipsesCaps.ttf) format('truetype');
+}
+
 
 body {
   margin: 0;
-  font-family: "Axiforma", "archwaltz", "Rehn", "Bw Vivant" ;
+  font-family: "Axiforma", "archwaltz", "Rehn", "Bw Vivant", "Mighty" ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

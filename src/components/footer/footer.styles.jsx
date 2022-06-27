@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.div`
   padding: 50px 80px 50px 30px;
-  background: #263238;
-  color: #fff;
+  background: #252427;
 
   @media screen and (max-width: 800px) {
     padding: 20px 30px 20px 30px;
@@ -38,10 +37,12 @@ export const FlexRow = styled.div`
   flex-direction: column;
 `;
 export const Option = styled.p`
-  font-family: Bw Vivant;
-  font-size: 15px;
+  font-family: Elipses;
+  font-size: 25px;
+  letter-spacing: 2px;
   text-transform: capitalize;
   font-weight: 400;
+  color: #fff;
 `;
 
 export const FormContainer = styled.div`
@@ -66,19 +67,21 @@ export const FormContainer = styled.div`
   }
 `;
 export const Option1 = styled.div`
-  font-family: Bw Vivant;
+  font-family: Elipses;
   font-size: 30px;
   text-transform: capitalize;
   font-weight: 400;
   letter-spacing: 2px;
+  color: #D6A26D;
 `;
 
 export const FooterBottom = styled.p`
-  font-family: Bw Vivant;
+  font-family: Elipses;
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 400;
   letter-spacing: 2px;
   text-align: center;
   margin: 40px 0 0 0;
+  color: #D6A26D;
 `;

@@ -77,7 +77,7 @@ export const AddButton = styled(Button)`
     display: block;
     opacity: 0.9;
     padding: 0 10px;
-    font-size: 15px;
+    font-size: 9px;
     margin: 75px 0 0 12px;
     border: 2px solid #8d6648;
 

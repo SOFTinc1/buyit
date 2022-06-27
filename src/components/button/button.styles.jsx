@@ -1,12 +1,14 @@
 import styled, { css } from "styled-components";
 
 const ButtonStyles = css`
-  background-color: transparent;
-  color: #8d6648;
-  border: 2px solid #BF360C;
+  background-color: #F9A825;
+  color: #000;
+  border: none;
   transition: all 0.5s ease-in;
-  font-family: "Axiforma";
-  font-weight: 400;
+  font-family: "Mighty";
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
 
   &:hover {
     background-color: #8d6648;
@@ -27,5 +29,6 @@ export const ButtonContainer = styled.button`
   font-family: "Axiforma";
   text-transform: capitalize;
   padding: 0 15px 0 15px;
-  ${ButtonStyles}
+  ${ButtonStyles},
+
 `;

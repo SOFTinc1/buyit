@@ -18,15 +18,15 @@ export const CatalogueOverviewContainer = styled.div`
 export const Title = styled.h1`
   margin: 20px 0 0 0;
   text-align: center;
-  font-family: Bw Vivant;
+  // font-family: Bw Vivant;
+  font-family: Elipses;
   font-weight: 400;
-  font-size: 95px;
-  font-size: 70px;
+  font-size: 115px;
   text-transform: capitalize;
   padding: 40px 30px 40px 30px;
 
   @media screen and (max-width: 800px) {
-    font-size: 40px;
+    font-size: 45px;
     margin: 0;
   }
 `;

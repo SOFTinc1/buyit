@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const OurStoryContainer = styled.div`
-  margin: 200px 0 0 0;
+  margin: 0 0 0 0;
   padding: 80px;
   background: #fff;
 
   @media screen and (max-width: 800px) {
-    margin: 200px 0 0 0;
+    margin: 0;
     padding: 0;
   }
 `;
@@ -27,14 +27,15 @@ export const Column1 = styled.div`
 `;
 export const Title = styled.h1`
   font-family: Bw Vivant;
-  font-size: 35px;
+  font-family: Elipses;
+  font-size: 65px;
   font-weight: 300;
   text-transform: uppercase;
 
   @media screen and (max-width: 800px) {
-    font-size: 22px;
-    margin: 40px 0 20px 0;
+    font-size: 45px;
     text-align: center;
+    padding: 30px 35px 0 35px;
   }
 `;
 export const Descrip = styled.p`
@@ -45,8 +46,8 @@ export const Descrip = styled.p`
 
   @media screen and (max-width: 800px) {
     font-size: 15px;
-    margin: 0 0 20px 0;
-    text-align: center;
+    text-align: left;
+    padding: 5px 25px 20px 25px;
   }
 `;
 
