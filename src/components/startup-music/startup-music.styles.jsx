@@ -8,20 +8,20 @@ export const StartUpMusicContainer = styled.div`
   background-size: cover;
   width: 100vw;
 
-  // @media screen and (max-width: 800px) {
-  //   height: 100vw;
-  //   width: 100vw;
-  // }
+  @media screen and (max-width: 800px) {
+    height: 70vh;
+    width: 100%;
+  }
 `;
 export const BackgroundOverlay = styled.div`  
   background-color: #f9a82596;
   height: 100vh;
   width: 100%;
 
-  // @media screen and (max-width: 800px) {
-  //   height: 2300px;
-  //   width: 100%;
-  // }
+  @media screen and (max-width: 800px) {
+    height: 70vh;
+    width: 100%;
+  }
 `;
 export const H1 = styled.h1`
   padding: 100px 0 0 0;
@@ -33,10 +33,10 @@ export const H1 = styled.h1`
   color: #000;
   letter-spacing: 2px;
 
-  // @media screen and (max-width: 800px) {
-  //   font-size: 70px;
-  //   padding: 700px 0 0 0;
-  // }
+  @media screen and (max-width: 800px) {
+    font-size: 70px;
+    // padding: 70px 0 0 0;
+  }
 `;
 export const H2 = styled.h2`
   font-family: Mighty;
@@ -46,10 +46,10 @@ export const H2 = styled.h2`
   color: #000;
   letter-spacing: 2px;
 
-//   @media screen and (max-width: 800px) {
-//     font-size: 120px;
-//   }
-// `;
+  @media screen and (max-width: 800px) {
+    font-size: 90px;
+  }
+`;
 export const ButtonContainer = styled(Link)``;
 export const Enter = styled.button`
   margin: 0 auto;
