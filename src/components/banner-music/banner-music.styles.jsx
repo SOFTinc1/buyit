@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import BackgroundImg from "../../assets/images/yellow.jpg";
+import BackgroundImgMobile from "../../assets/images/music.jpg";
 
 export const BannerMusicContainer = styled.div`
   // padding: 80px 80px 0 80px;
@@ -9,7 +10,8 @@ export const BannerMusicContainer = styled.div`
   height: 700px;
 
   @media screen and (max-width: 800px) {
-    background-size: auto;
+    background: url(${BackgroundImgMobile});
+    background-size: cover;
     overflow: hidden;
   }
 `;
@@ -20,7 +22,7 @@ export const Overlay = styled.div`
   height: 100%;
 
   @media screen and (max-width: 800px) {
-    padding: 20px;
+    padding: 50px 20px 20px 20px;
   }
 `;
 
