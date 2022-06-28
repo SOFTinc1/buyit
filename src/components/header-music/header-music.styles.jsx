@@ -11,7 +11,8 @@ const OptionContainerStyles = css`
   text-transform: uppercase;
 
   @media screen and (max-width: 800px) {
-    margin: -10px 0 0 0;
+    // margin: -10px 0 0 0;
+    padding: 0;
   }
 `;
 
@@ -25,9 +26,9 @@ export const HeaderContainer = styled.div`
   margin-bottom: 0px;
 
   @media screen and (max-width: 800px) {
-    height: 60px;
+    height: 65px;
     padding: 10px;
-    margin: 10px 0 0 0;
+    margin: 0;
   }
   
 `;
@@ -50,7 +51,7 @@ export const Logo = styled.img`
   @media screen and (max-width: 800px) {
     margin: 0;
     width: 100%;
-    margin: -5px 0 0 0;
+    margin: 4px 0 0 0;
   }
 `;
 
@@ -72,6 +73,7 @@ export const OptionsContainer = styled.div`
 export const OptionLink = styled(Link)`
   ${OptionContainerStyles}
   font-weight: 800;
+  letter-spacing: 5px;
 
   @media screen and (max-width: 800px) {
     padding: 5px 5px;

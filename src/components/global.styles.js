@@ -4,7 +4,6 @@ export const GlobalStyle = createGlobalStyle`
     * {
         box-sizing: border-box;
         
-        
         @media screen and (max-width: 800px) {
             padding: 0;
         }

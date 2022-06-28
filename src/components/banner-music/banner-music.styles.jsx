@@ -7,12 +7,21 @@ export const BannerMusicContainer = styled.div`
   background: url(${BackgroundImg});
   background-size: cover;
   height: 700px;
+
+  @media screen and (max-width: 800px) {
+    background-size: cover;
+    overflow: hidden;
+  }
 `;
 
 export const Overlay = styled.div`
-  // background: #d6a16d88;
+  background: rgba(0, 0, 0, 0.658);
   padding: 80px 80px 0 30px;
   height: 100%;
+
+  @media screen and (max-width: 800px) {
+    padding: 20px;
+  }
 `;
 
 export const Row = styled.div`
@@ -23,12 +32,16 @@ export const Row = styled.div`
 `;
 
 export const H1 = styled.h1`
-  // padding: 20px 0 0 0;
   font-size: 80px;
   text-align: left;
   font-family: Elipses;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: #d6a26d;
+
+  @media screen and (max-width: 800px) {
+    font-size: 50px;
+  }
 `;
 export const Col1 = styled.div``;
 export const Col2 = styled.div``;
@@ -41,6 +54,11 @@ export const P1 = styled.h2`
   text-transform: Capitalize;
   letter-spacing: 2px;
   margin: 90px 0 0 0;
+  color: #fff;
+
+  @media screen and (max-width: 800px) {
+    font-size: 30px;
+  }
 `;
 export const P2 = styled.p`
   width: 400px;
@@ -50,6 +68,11 @@ export const P2 = styled.p`
   font-weight: 400;
   text-align: left;
   text-transform: capitalize;
+  color: #fff;
+
+  @media screen and (max-width: 800px) {
+    padding: 20px 40px 0 0;
+  }
 `;
 export const Image1 = styled.img`
   width: 100%;

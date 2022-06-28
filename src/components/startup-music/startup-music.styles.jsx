@@ -6,7 +6,7 @@ export const StartUpMusicContainer = styled.div`
   background: url(${BackgroundImg});
   height: 100vh;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
 
   @media screen and (max-width: 800px) {
     height: 70vh;
@@ -25,9 +25,9 @@ export const BackgroundOverlay = styled.div`
 `;
 export const H1 = styled.h1`
   padding: 100px 0 0 0;
-  font-family: Elipses;
+  font-family: Mighty;
   font-size: 150px;
-  font-weight: 800;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: center;
   color: #000;

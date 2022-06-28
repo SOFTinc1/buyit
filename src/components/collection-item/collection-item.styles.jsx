@@ -29,7 +29,7 @@ export const Card = styled.div`
   width: 100%;
   height: 100%;
   padding: 0 0 20px 0;
-  background: #fff;
+  // background: #fff;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   @media screen and (max-width: 800px) {
@@ -98,10 +98,10 @@ export const FooterName = styled.span`
   width: 100%;
   margin-bottom: 15px;
   font-size: 20px;
-  // font-family: Axiforma;
   font-family: Bw Vivant;
   text-align: left;
   padding: 0 0 0 10px;
+  color: #fff;
   
   @media screen and (max-width: 800px) {
     font-size: 16px;
@@ -112,11 +112,11 @@ export const FooterPrice = styled.span`
   width: 100%;
   font-size: 20px;
   font-weight: 600;
-  // font-family: Axiforma;
   font-family: Bw Vivant;
   text-align: left;
   padding: 0 0 0 10px;
   margin: -10px 0 0 0;
+  color: #fff;
   
   @media screen and (max-width: 800px) {
     font-size: 16px;

@@ -1,5 +1,7 @@
 import React from "react";
 import "./checkout.styles.scss";
+import HeaderLifestyle from "../../components/header-lifestyle/header.component";
+import Footer from "../../components/footer/footer.component";
 
 import CheckoutItem from "../../components/checkout-item/checkout-item.component";
 import { connect } from "react-redux";
@@ -11,6 +13,7 @@ import {
 
 const CheckoutPage = ({ cartItems, total }) => (
   <div className="checkout-page">
+    <HeaderLifestyle />
     <div className="gridThinghs">
       {cartItems.map((cartItem) => (
         <CheckoutItem key={cartItem.id} cartItem={cartItem} />
@@ -27,6 +30,7 @@ const CheckoutPage = ({ cartItems, total }) => (
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 );
 

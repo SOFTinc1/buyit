@@ -7,8 +7,8 @@
   // align-items: center;
 
   .card {
-    background: #fafaf4;
-    // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: #37353a;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border: none;
     border-radius: 0px;
     width: 100%;
@@ -52,6 +52,7 @@
   .price {
     width: 100%;
     margin: 5px 0 0 0;
+    color: #fff;
   }
 
   .quantity {

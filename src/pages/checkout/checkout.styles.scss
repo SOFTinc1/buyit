@@ -1,12 +1,14 @@
 .checkout-page {
   width: 100%;
   height: 100%;
-  padding: 50px 150px;
+  // padding: 50px 150px;
+  background: #37353a;
 
   .gridThinghs {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
+    padding: 50px 100px;
 
     @media screen and (max-width: 800px) {
       display: flex;
@@ -44,6 +46,7 @@
     display: grid;
     grid-template-columns: 6fr 2fr;
     grid-gap: 10px;
+    padding: 50px 100px;
 
     @media screen and (max-width: 800px) {
       display: flex;
@@ -52,7 +55,8 @@
   }
 
   .payment {
-    background: #fafaf4;
+    background: #37353a;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 20px 30px;
     margin: 40px 0 0 0;
   } 
@@ -64,11 +68,12 @@
 
   .total {
     margin-left: auto;
+    color: #fff;
 
     .total-span {
       text-transform: capitalize;
       font-size: 18px;
-      // font-weight: bold;
+      color: #fff;
       font-family: "Axiforma";
     }
   }

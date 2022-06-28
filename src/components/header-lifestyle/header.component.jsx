@@ -19,7 +19,7 @@ import LogoImg from "../../assets/images/logo.svg";
 
 const HeaderLifestyle = ({ hidden }) => (
   <HeaderContainer>
-    <LogoContainer to="/">
+    <LogoContainer to="/lifestyle">
       <Logo src={LogoImg} />
     </LogoContainer>
     <OptionsContainer>

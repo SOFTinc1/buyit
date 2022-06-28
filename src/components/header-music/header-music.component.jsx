@@ -15,8 +15,8 @@ const HeaderMusic = () => (
       <Logo src={LogoImg} />
     </LogoContainer>
     <OptionsContainer>
-      <OptionLink to="/">
-        {" "}back to top{" "}
+      <OptionLink to="/lifestyle">
+        {" "}lifestyle{" "}
       </OptionLink>
       {/* <OptionLink to="/contact">
         {" "}about{" "}

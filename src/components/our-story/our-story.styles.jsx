@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const OurStoryContainer = styled.div`
   margin: 0 0 0 0;
   padding: 80px;
-  background: #fff;
+  background: #252427;
 
   @media screen and (max-width: 800px) {
     margin: 0;
@@ -31,6 +31,7 @@ export const Title = styled.h1`
   font-size: 65px;
   font-weight: 300;
   text-transform: uppercase;
+  color: #d6a26d;
 
   @media screen and (max-width: 800px) {
     font-size: 45px;
@@ -43,6 +44,7 @@ export const Descrip = styled.p`
   font-size: 15px;
   letter-spacing: 1.5px;
   text-transform: capitalize;
+  color: #fff;
 
   @media screen and (max-width: 800px) {
     font-size: 15px;

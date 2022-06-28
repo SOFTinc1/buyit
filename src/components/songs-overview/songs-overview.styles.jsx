@@ -1,7 +1,12 @@
 import styled from "styled-components";
 
 export const SongsContainer = styled.div`
-    padding: 30px 0 20px 30px;
+  padding: 30px 0 20px 60px;
+
+  @media screen and (max-width: 800px) {
+    padding: 20px 10px 0 30px;
+    height: 100vh;
+  }
 `;
 export const H1 = styled.div`
   padding: 0 0 30px 0;
@@ -16,11 +21,22 @@ export const Row = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 0px;
+
+  @media screen and (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px 0;
+  }
 `;
 export const Col = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0px;
+
+  @media screen and (max-width: 800px) {
+    margin: 0 0 30px 0;
+    // background: #252427;
+  }
 `;
 export const InnerRow = styled.div`
   display: grid;

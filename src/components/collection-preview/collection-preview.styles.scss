@@ -3,7 +3,6 @@
   flex-direction: column;
   margin-bottom: 30px;
   padding: 50px 30px;
-  background: #fafaf4;
 
   .header {
     display: grid;
@@ -18,22 +17,28 @@
     }
   }
   .title {
-    font-size: 28px;
+    font-size: 34px;
     margin: 0 0 25px 10px;
-    font-family: "Bw Vivant";
+    color: #d6a26d;
+    font-family: "Mighty";
     font-weight: 800;
     text-transform: uppercase;
     text-align: left;
+    letter-spacing: 3px;
 
     @media screen and (max-width: 800px) {
       margin: 0 0 0 -5px;
     }
   }
+
   .view {
-    font-size: 18px;
-    border-bottom: 2px solid #000;
+    font-size: 20px;
+    border-bottom: 2px solid #d6a26d;
     cursor: pointer;
-    font-family: "Bw Vivant";
+    // font-family: "Mighty";
+    color: #d6a26d;
+    text-transform: uppercase;
+
 
     @media screen and (max-width: 800px) {
       font-size: 14px;
