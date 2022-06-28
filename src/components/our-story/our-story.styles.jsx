@@ -27,7 +27,6 @@ export const Column1 = styled.div`
 `;
 export const Title = styled.h1`
   font-family: Bw Vivant;
-  font-family: Elipses;
   font-size: 65px;
   font-weight: 300;
   text-transform: uppercase;
@@ -40,7 +39,7 @@ export const Title = styled.h1`
   }
 `;
 export const Descrip = styled.p`
-  font-family: Rehn;
+  font-family: Axiforma;
   font-size: 15px;
   letter-spacing: 1.5px;
   text-transform: capitalize;
@@ -48,7 +47,7 @@ export const Descrip = styled.p`
 
   @media screen and (max-width: 800px) {
     font-size: 15px;
-    text-align: left;
+    text-align: center;
     padding: 5px 25px 20px 25px;
   }
 `;

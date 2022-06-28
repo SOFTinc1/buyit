@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 
     a {
         text-decoration: none;
-        color: #000;
+        color: #fff;
         font-weight: normal;
         
         &:hover {

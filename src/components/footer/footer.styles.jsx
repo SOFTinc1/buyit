@@ -37,7 +37,7 @@ export const FlexRow = styled.div`
   flex-direction: column;
 `;
 export const Option = styled.p`
-  font-family: Elipses;
+  font-family: Axiforma;
   font-size: 25px;
   letter-spacing: 2px;
   text-transform: capitalize;
@@ -67,7 +67,7 @@ export const FormContainer = styled.div`
   }
 `;
 export const Option1 = styled.div`
-  font-family: Elipses;
+  font-family: Bw Vivant;
   font-size: 30px;
   text-transform: capitalize;
   font-weight: 400;
@@ -76,7 +76,7 @@ export const Option1 = styled.div`
 `;
 
 export const FooterBottom = styled.p`
-  font-family: Elipses;
+  font-family: Axiforma;
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 400;

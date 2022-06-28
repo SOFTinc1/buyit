@@ -2,30 +2,34 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const NavbarContainer = styled.div`
+  height: 63px;
+  padding: 0;
   width: 100%;
-  height: 50px;
-  background: #fff;
-  padding: 0 80px;
+  background: #252427;
+  color: #fff;
 
   @media screen and (max-width: 800px) {
-    padding: 0 0 1rem 0;
+    height: auto;
+    padding: 10px;
+    margin: 0;
   }
 `;
 
 export const Ul = styled.ul`
   padding: 0;
+  color: #fff;
 `;
 export const Li = styled.li`
   padding: 0;
+
+  @media screen and (max-width: 800px) {
+    padding: 10px 10px 0 10px;
+    color: #fff;
+  }
 `;
 
-export const Logoh1 = styled.h1`
-  width: 100%;
-  font-size: 20px;
-  font-family: Axiforma;
-  letter-spacing: 1px;
-  color: #8d6648;
-  font-weight: 800;
+export const LogoImg = styled.div`
+
 `;
 
 export const LogoContainer = styled(Link)`
@@ -33,8 +37,17 @@ export const LogoContainer = styled(Link)`
 `;
 
 export const Anchor = styled(Link)`
-  color: #000;
   font-family: Axiforma;
-  font-size: 13px;
-  margin: 0 30px;
+  margin: 0 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 22px;
+  color: #fff;
+
+  @media screen and (max-width: 800px) {
+    height: 65px;
+    margin: 0;
+    font-size: 22px;
+    color: #fff;
+  }
 `;

@@ -25,8 +25,8 @@ export const BackgroundOverlay = styled.div`
 `;
 export const H1 = styled.h1`
   padding: 100px 0 0 0;
-  font-family: Mighty;
-  font-size: 150px;
+  font-family: Bw Vivant;
+  font-size: 90px;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
@@ -39,8 +39,8 @@ export const H1 = styled.h1`
   }
 `;
 export const H2 = styled.h2`
-  font-family: Mighty;
-  font-size: 180px;
+  font-family: Bw Vivant;
+  font-size: 90px;
   text-transform: uppercase;
   text-align: center;
   color: #000;

@@ -68,14 +68,16 @@
     .title {
       font-weight: 400;
       margin-bottom: 6px;
-      // font-size: 22px;
       font-size: 30px;
       color: #000;
       text-transform: uppercase;
-      // font-family: "Bw Vivant";
-      font-family: "Mighty";
+      font-family: "Bw Vivant";
       letter-spacing: 3px;
       font-weight: 800;
+
+      @media screen and (max-width: 800px) {
+        font-size: 18px;
+      }
     }
 
     .subtitle {

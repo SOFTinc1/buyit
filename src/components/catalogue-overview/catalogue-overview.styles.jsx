@@ -19,10 +19,10 @@ export const Title = styled.h1`
   margin: 20px 0 0 0;
   text-align: center;
   color: #d6a26d;
-  font-family: Elipses;
+  font-family: Bw Vivant;
   font-weight: 400;
-  font-size: 115px;
-  text-transform: capitalize;
+  font-size: 100px;
+  text-transform: uppercase;
   padding: 40px 30px 40px 30px;
 
   @media screen and (max-width: 800px) {

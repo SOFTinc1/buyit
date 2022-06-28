@@ -6,7 +6,7 @@ const ButtonStyles = css`
   color: #F9A825;
   border: none;
   transition: all 0.5s ease-in;
-  font-family: "Mighty";
+  font-family: "Bw Vivant";
   font-weight: 800;
   text-transform: uppercase;
 

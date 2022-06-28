@@ -5,6 +5,7 @@ import BackgroundImgMobile from "../../assets/images/music.jpg";
 export const BannerMusicContainer = styled.div`
   // padding: 80px 80px 0 80px;
   // background: #D6A26D;
+  position: relative;
   background: url(${BackgroundImg});
   background-size: cover;
   height: 700px;
@@ -18,7 +19,7 @@ export const BannerMusicContainer = styled.div`
 
 export const Overlay = styled.div`
   background: rgba(0, 0, 0, 0.658);
-  padding: 80px 80px 0 30px;
+  padding: 50px 80px 0 30px;
   height: 100%;
 
   @media screen and (max-width: 800px) {
@@ -36,7 +37,7 @@ export const Row = styled.div`
 export const H1 = styled.h1`
   font-size: 80px;
   text-align: left;
-  font-family: Mighty;
+  font-family: Bw Vivant;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #d6a26d;
@@ -51,7 +52,7 @@ export const Col3 = styled.div``;
 export const P1 = styled.h2`
   font-size: 35px;
   text-align: left;
-  font-family: Mighty;
+  font-family: Bw Vivant;
   font-weight: 800;
   text-transform: Capitalize;
   letter-spacing: 2px;
@@ -66,11 +67,12 @@ export const P2 = styled.p`
   width: 400px;
   font-size: 15px;
   letter-spacing: 2px;
-  font-family: Mighty;
+  font-family: Axiforma;
   font-weight: 400;
   text-align: left;
   text-transform: capitalize;
   color: #fff;
+  margin: 20px 0 0 0;
 
   @media screen and (max-width: 800px) {
     padding: 20px 40px 0 0;

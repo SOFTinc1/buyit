@@ -27,15 +27,15 @@ export const FlexRow = styled.div`
   flex-direction: column;
 `;
 export const Title = styled.div`
-  font-family: Mighty;
-  font-size: 90px;
+  font-family: Bw Vivant;
+  font-size: 55px;
   text-align: left;
-  font-weight: 400;
-  letter-spacing: 3px;
+  font-weight: 800;
+  letter-spacing: 4px;
   text-transform: uppercase;
-  transform: scale(1, 2);
+  transform: scale(1, 3);
   color: #d6a26d;
-  padding: 60px 0 0 0;
+  padding: 30px 0 0 0;
 
   @media screen and (max-width: 800px) {
     letter-spacing: 1px;
@@ -45,11 +45,12 @@ export const Title = styled.div`
   }
 `;
 export const Descrip = styled.div`
-  font-family: Elipses;
+  font-family: Bw Vivant;
   font-size: 85px;
   text-align: left;
   text-transform: uppercase;
   color: #fff;
+  padding: 50px 0 0 0;
 
   @media screen and (max-width: 800px) {
     letter-spacing: 1px;
@@ -69,7 +70,7 @@ export const ImageSrc = styled.img`
 `;
 export const Details = styled.div`
   font-family: Axiforma;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 13px;
   font-weight: 400;
   text-align: left;

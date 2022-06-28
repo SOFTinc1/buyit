@@ -5,7 +5,7 @@ const ButtonStyles = css`
   color: #000;
   border: none;
   transition: all 0.5s ease-in;
-  font-family: "Mighty";
+  font-family: "Bw Vivant";
   letter-spacing: 3px;
   font-weight: 700;
   text-transform: uppercase;
@@ -20,7 +20,7 @@ const ButtonStyles = css`
 export const ButtonContainer = styled.button`
   letter-spacing: 0.5px;
   line-height: 50px;
-  font-size: 15px;
+  font-size: 13px;
   text-transform: uppercase;
   font-weight: 400;
   cursor: pointer;

@@ -6,8 +6,7 @@ const OptionContainerStyles = css`
   font-weight: 800;
   letter-spacing: 3px;
   cursor: pointer;
-  // font-family: Bw Vivant;
-  font-family: Mighty;
+  font-family: Axiforma;
   text-transform: uppercase;
 
   @media screen and (max-width: 800px) {

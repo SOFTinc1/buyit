@@ -12,8 +12,8 @@ export const H1 = styled.div`
   padding: 0 0 30px 0;
   font-size: 50px;
   text-align: left;
-  font-family: Elipses;
-  // text-transform: uppercase;
+  font-family: Bw Vivant;
+  text-transform: uppercase;
   letter-spacing: 2px;
 `;
 export const Row = styled.div`
