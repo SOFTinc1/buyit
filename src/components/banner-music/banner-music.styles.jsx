@@ -9,7 +9,7 @@ export const BannerMusicContainer = styled.div`
   height: 700px;
 
   @media screen and (max-width: 800px) {
-    background-size: cover;
+    background-size: auto;
     overflow: hidden;
   }
 `;
@@ -34,7 +34,7 @@ export const Row = styled.div`
 export const H1 = styled.h1`
   font-size: 80px;
   text-align: left;
-  font-family: Elipses;
+  font-family: Mighty;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #d6a26d;

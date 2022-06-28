@@ -29,12 +29,12 @@ export const Card = styled.div`
   width: 100%;
   height: 100%;
   padding: 0 0 20px 0;
-  // background: #fff;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: #252427;
+  // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   @media screen and (max-width: 800px) {
     width: 100%;
-    height: 400px;
+    height: 360px;
     padding: 0;
   }
 `;
@@ -73,13 +73,13 @@ export const AddButton = styled(Button)`
   }
 
   @media screen and (max-width: 800px) {
+    background: #F9A825;
     width: 80%;
     display: block;
     opacity: 0.9;
     padding: 0 10px;
     font-size: 9px;
-    margin: 75px 0 0 12px;
-    border: 2px solid #8d6648;
+    margin: 65px 0 0 12px;
 
     &:hover {
       border: 2px solid #8d6648;

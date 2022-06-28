@@ -13,7 +13,7 @@
     @media screen and (max-width: 800px) {
       display: flex;
       flex-direction: column;
-      // padding: 0;
+      padding: 10px;
     }
   }
 
@@ -51,12 +51,13 @@
     @media screen and (max-width: 800px) {
       display: flex;
       flex-direction: column;
+      padding: 10px;
     }
   }
 
   .payment {
-    background: #37353a;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: #252427;;
+    // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 20px 30px;
     margin: 40px 0 0 0;
   } 

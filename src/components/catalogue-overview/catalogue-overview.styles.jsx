@@ -11,7 +11,7 @@ export const CatalogueOverviewContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     margin: 0;
-    padding: 0;
+    padding: 0 0 10px 0;
   }
 `;
 

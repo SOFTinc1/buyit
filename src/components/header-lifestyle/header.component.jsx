@@ -26,8 +26,11 @@ const HeaderLifestyle = ({ hidden }) => (
       <OptionLink to="/shop">
         {" "}shop{" "}
       </OptionLink>
+      <OptionLink to="/music">
+        {" "}music{" "}
+      </OptionLink>
       <OptionLink to="/">
-        {" "}back to top{" "}
+        {" "}top{" "}
       </OptionLink>
       <CartT as={CartIcon} />
     </OptionsContainer>

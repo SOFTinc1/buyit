@@ -9,6 +9,7 @@ export const HomepageContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     padding: 0;
+    overflow: hidden;
   }
 `;
 export const Row = styled.div`

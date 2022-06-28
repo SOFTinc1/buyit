@@ -7,8 +7,8 @@
   // align-items: center;
 
   .card {
-    background: #37353a;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: #252427;
+    // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border: none;
     border-radius: 0px;
     width: 100%;
@@ -20,9 +20,10 @@
     font-family: "Axiforma";
 
     @media screen and (max-width: 800px) {
+      width: 100%;
       display: grid;
       grid-template-columns: 1fr 18fr 1fr;
-      grid-gap: 20px;
+      grid-gap: 10px;
       padding: 20px 30px;
     }
   }
