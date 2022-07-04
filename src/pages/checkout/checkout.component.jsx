@@ -1,8 +1,8 @@
 import React from "react";
 import "./checkout.styles.scss";
-import HeaderLifestyle from "../../components/header-lifestyle/header.component";
+// import HeaderLifestyle from "../../components/header-lifestyle/header.component";
+import NavbarBootStrapLifestyle from "../../components/navbar-lifestyle/navbar-lifestyle.component";
 import Footer from "../../components/footer/footer.component";
-
 import CheckoutItem from "../../components/checkout-item/checkout-item.component";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
@@ -13,7 +13,7 @@ import {
 
 const CheckoutPage = ({ cartItems, total }) => (
   <div className="checkout-page">
-    <HeaderLifestyle />
+    <NavbarBootStrapLifestyle />
     <div className="gridThinghs">
       {cartItems.map((cartItem) => (
         <CheckoutItem key={cartItem.id} cartItem={cartItem} />

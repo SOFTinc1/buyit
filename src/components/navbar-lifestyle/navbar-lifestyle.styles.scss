@@ -1,0 +1,26 @@
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  .active {
+    border: none;
+    outline: none;
+  }
+}
+.navbar .navbar-toggler-icon {
+  background-image: url("../../assets/images/menu.svg");
+  width: 1rem;
+  height: 1rem;
+
+}
+.navbar-inverse .navbar-toggler-icon {
+  background-image: url("../../assets/images/menu.svg");
+  width: 1rem;
+  height: 1rem;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("../../assets/images/menu.svg");
+  width: 1rem;
+  height: 1rem;
+}

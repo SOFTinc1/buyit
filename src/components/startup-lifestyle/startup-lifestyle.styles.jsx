@@ -34,7 +34,7 @@ export const H1 = styled.h1`
   letter-spacing: 2px;
 
   @media screen and (max-width: 800px) {
-    font-size: 70px;
+    font-size: 40px;
     // padding: 50px 0 0 0;
   }
 `;
@@ -47,7 +47,7 @@ export const H2 = styled.h2`
   letter-spacing: 2px;
 
   @media screen and (max-width: 800px) {
-    font-size: 90px;
+    font-size: 70px;
   }
 `;
 export const ButtonContainer = styled(Link)``;

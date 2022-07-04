@@ -1,6 +1,7 @@
 import React from "react";
 import "./homepage.styles.scss";
 import HeaderLifestyle from "../../components/header-lifestyle/header.component";
+import NavbarBootStrapLifestyle from "../../components/navbar-lifestyle/navbar-lifestyle.component";
 import HomepageBanner from "../../components/homepage-banner/homapage-banner.component";
 import OurStory from "../../components/our-story/our-story.component";
 import CatalogueOverview from "../../components/catalogue-overview/catalogue-overview.component";
@@ -11,7 +12,8 @@ import Footer from "../../components/footer/footer.component";
 
 const HomepageLifestyle = () => (
   <div className="homepage">
-    <HeaderLifestyle />
+    {/* <HeaderLifestyle /> */}
+    <NavbarBootStrapLifestyle />
     <HomepageBanner />
     <OurStory />
     <CatalogueOverview />

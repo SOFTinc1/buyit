@@ -1,8 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { connect } from "react-redux";
-import { createStructuredSelector } from "reselect";
-import { selectCurrentUser } from "../../redux/user/user.selectors";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import {
   NavbarContainer,
@@ -12,10 +9,11 @@ import {
   Ul,
   Li,
 } from "./navbar.styles";
+import "./navbar.styles.scss";
 
 import Logo from "../../assets/images/logo.svg";
 
-const NavbarBootStrap = ({ currentUser }) => {
+const NavbarBootStrap = () => {
   let navigate = useNavigate();
 
   return (
@@ -38,6 +36,7 @@ const NavbarBootStrap = ({ currentUser }) => {
                   onClick={() => {
                     navigate("/lifestyle");
                   }}
+                  style={{ color: "#fff" }}
                 >
                   back to lifestyle page
                 </Anchor>
@@ -50,8 +49,4 @@ const NavbarBootStrap = ({ currentUser }) => {
   );
 };
 
-const mapStateToProps = createStructuredSelector({
-  currentUser: selectCurrentUser,
-});
-
-export default connect(mapStateToProps)(NavbarBootStrap);
+export default NavbarBootStrap;

@@ -9,7 +9,7 @@ export const StartUpMusicContainer = styled.div`
   width: 100%;
 
   @media screen and (max-width: 800px) {
-    height: 70vh;
+    height: 80vh;
     width: 100%;
   }
 `;
@@ -19,7 +19,7 @@ export const BackgroundOverlay = styled.div`
   width: 100%;
 
   @media screen and (max-width: 800px) {
-    height: 70vh;
+    height: 80vh;
     width: 100%;
   }
 `;
@@ -34,8 +34,8 @@ export const H1 = styled.h1`
   letter-spacing: 2px;
 
   @media screen and (max-width: 800px) {
-    font-size: 70px;
-    // padding: 70px 0 0 0;
+    font-size: 40px;
+    padding: 160px 0 0 0;
   }
 `;
 export const H2 = styled.h2`
@@ -47,7 +47,7 @@ export const H2 = styled.h2`
   letter-spacing: 2px;
 
   @media screen and (max-width: 800px) {
-    font-size: 90px;
+    font-size: 100px;
   }
 `;
 export const ButtonContainer = styled(Link)``;

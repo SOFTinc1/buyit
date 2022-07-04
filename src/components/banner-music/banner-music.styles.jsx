@@ -14,6 +14,7 @@ export const BannerMusicContainer = styled.div`
     background: url(${BackgroundImgMobile});
     background-size: cover;
     overflow: hidden;
+    height: 850px;
   }
 `;
 
@@ -24,6 +25,7 @@ export const Overlay = styled.div`
 
   @media screen and (max-width: 800px) {
     padding: 50px 20px 20px 20px;
+    height: 850px;
   }
 `;
 
@@ -44,6 +46,7 @@ export const H1 = styled.h1`
 
   @media screen and (max-width: 800px) {
     font-size: 50px;
+    text-align: center;
   }
 `;
 export const Col1 = styled.div``;
@@ -53,7 +56,7 @@ export const P1 = styled.h2`
   font-size: 35px;
   text-align: left;
   font-family: Bw Vivant;
-  font-weight: 800;
+  font-weight: 400;
   text-transform: Capitalize;
   letter-spacing: 2px;
   margin: 90px 0 0 0;
@@ -61,6 +64,7 @@ export const P1 = styled.h2`
 
   @media screen and (max-width: 800px) {
     font-size: 30px;
+    text-align: center;
   }
 `;
 export const P2 = styled.p`
@@ -75,7 +79,10 @@ export const P2 = styled.p`
   margin: 20px 0 0 0;
 
   @media screen and (max-width: 800px) {
-    padding: 20px 40px 0 0;
+    padding: 20px 0 0 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
   }
 `;
 export const Image1 = styled.img`

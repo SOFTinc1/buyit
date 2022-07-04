@@ -26,7 +26,7 @@ export const Li = styled.li`
   padding: 0;
 
   @media screen and (max-width: 800px) {
-    padding: 10px 10px 0 10px;
+    padding: 10px 0 0 0;
     color: #fff;
   }
 `;
@@ -50,5 +50,13 @@ export const Anchor = styled(Link)`
     margin: 0;
     font-size: 20px;
     color: #fff;
+  }
+`;
+
+export const CartT = styled.div`
+  padding: -15px 0 0 0;
+
+  @media screen and (max-width: 800px) {
+    // padding: 15px 0 0 0;
   }
 `;

@@ -42,6 +42,7 @@ export const Title = styled.div`
     font-size: 50px;
     transform: scale(1, 1);
     padding: 30px 35px 0 35px;
+    // text-align: center;
   }
 `;
 export const Descrip = styled.div`
@@ -56,6 +57,7 @@ export const Descrip = styled.div`
     letter-spacing: 1px;
     font-size: 40px;
     padding: 0 35px;
+    // text-align: center;
   }
 `;
 export const ImageSrc = styled.img`
@@ -81,6 +83,7 @@ export const Details = styled.div`
   @media screen and (max-width: 800px) {
     margin: 20px 0 20px 0;
     padding: 0 35px;
+    // text-align: center;
   }
 `;
 export const ButtonThingy = styled.div`
