@@ -42,7 +42,7 @@ export const Anchor = styled(Link)`
   margin: 0 20px;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 17px;
   color: #fff;
 
   @media screen and (max-width: 800px) {

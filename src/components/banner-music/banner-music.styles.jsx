@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import BackgroundImg from "../../assets/images/yellow.jpg";
+// import BackgroundImg from "../../assets/images/yellow.jpg";
 import BackgroundImgMobile from "../../assets/images/music.jpg";
 
 export const BannerMusicContainer = styled.div`
   // padding: 80px 80px 0 80px;
   // background: #D6A26D;
   position: relative;
-  background: url(${BackgroundImg});
+  background: url(${BackgroundImgMobile});
   background-size: cover;
   height: 700px;
 

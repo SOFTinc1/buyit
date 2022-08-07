@@ -7,26 +7,10 @@
   src: local('Bw Vivant'), url(./assets/font/Bw\ Vivant/bw-vivant-light.ttf) format('truetype');
 }
 
-/* @font-face {
-  font-family: "archwaltz";
-  src: local("archwaltz"), url(./assets/font/archwaltz-font/Archwaltz\ Demo\ Regular.ttf) format("truetype");
-} */
-/* @font-face {
-  font-family: "Rehn";
-  src: local("Rehn"), url(./assets/font/Rehn\ W03\ Regular.ttf) format("truetype");
-} */
-/* @font-face {
-  font-family: 'Mighty';
-  src: local('Mighty'), url(./assets/font/Mighty\ Ditey\ NF\ W01\ Regular.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Elipses';
-  src: local('Elipses'), url(./assets/font/ElipsesCaps.ttf) format('truetype');
-} */
 
 body {
   margin: 0;
-  font-family: "Axiforma", "archwaltz", "Rehn", "Bw Vivant", "Mighty" ;
+  font-family: "Axiforma", "Bw Vivant" ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

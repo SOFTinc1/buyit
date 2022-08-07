@@ -59,8 +59,6 @@ export const AddButton = styled(Button)`
   position: absolute;
   margin: -100px 0 0 0;
   display: none;
-  // font-family: Rehn;
-  // font-family: Bw Vivant;
   font-size: 22px;
   border: none;
 

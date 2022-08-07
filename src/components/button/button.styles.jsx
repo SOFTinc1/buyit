@@ -6,8 +6,8 @@ const ButtonStyles = css`
   border: none;
   transition: all 0.5s ease-in;
   font-family: "Bw Vivant";
-  letter-spacing: 3px;
-  font-weight: 700;
+  letter-spacing: 2px;
+  font-weight: 800;
   text-transform: uppercase;
 
   &:hover {

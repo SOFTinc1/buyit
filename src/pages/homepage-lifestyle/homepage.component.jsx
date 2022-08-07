@@ -1,24 +1,21 @@
 import React from "react";
 import "./homepage.styles.scss";
-import HeaderLifestyle from "../../components/header-lifestyle/header.component";
 import NavbarBootStrapLifestyle from "../../components/navbar-lifestyle/navbar-lifestyle.component";
 import HomepageBanner from "../../components/homepage-banner/homapage-banner.component";
-import OurStory from "../../components/our-story/our-story.component";
-import CatalogueOverview from "../../components/catalogue-overview/catalogue-overview.component";
-import AllExplain from "../../components/all/all.component";
-import Directory from "../../components/directory/directory.component";
+import FeaturedCategories from "../../components/featured-categories/feature-categories.component";
+import Recomended from "../../components/recomended/recomended.component";
+import VerifiedDeals from "../../components/verified-deals/verified-deals.component";
+
 import Footer from "../../components/footer/footer.component";
 
 
 const HomepageLifestyle = () => (
   <div className="homepage">
-    {/* <HeaderLifestyle /> */}
     <NavbarBootStrapLifestyle />
     <HomepageBanner />
-    <OurStory />
-    <CatalogueOverview />
-    <Directory />
-    <AllExplain />
+    <FeaturedCategories />
+    <Recomended />
+    <VerifiedDeals />
     <Footer />
   </div>
 );
